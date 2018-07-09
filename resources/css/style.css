@@ -1,0 +1,163 @@
+* {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/* body font styling */
+span, h2, h3, h4, h5 {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 38px;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 21px;
+}
+
+/* Header styling*/
+header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+/* header logo positioning */
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* header navigation positioning */
+header nav {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+}
+
+nav span {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+/* First section styling*/
+#mission {
+  display: flex;
+  padding-top: 69px;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.mission-heading {
+  width: 1200px;
+}
+
+/* Tea of the Month section styling*/
+#featured {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.row-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.image-content {
+  margin: auto 12.5px;
+}
+
+.image-content img {
+  width: 300px;
+  height: 200px;
+  margin-top: 15px;
+}
+
+/* Locations section styling*/
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+#locations h2 {
+  background-color: transparent;
+}
+
+.store-parent {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  width: 300px;
+  height: 300px;
+  margin: auto 20px;
+}
+
+/* footer section styling */
+footer {
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
